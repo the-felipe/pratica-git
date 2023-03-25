@@ -7,11 +7,7 @@ def main():
     leitor = LeitorArquivo('data.txt')
     valores = leitor.getValores()
     print(valores)
-    
-    for serie in valores:
-       plt.plot(serie)
        
-    plt.show()
     #Plotando gráfico de linhas
     plt.subplot(1, 2, 1)
 
